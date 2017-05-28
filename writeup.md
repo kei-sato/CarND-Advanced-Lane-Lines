@@ -59,7 +59,7 @@ Here is an example of an undistorted image of one of the test images:
 
 The code for this step is contained in the code cell #5,6 of main.ipynb.
 
-I used a combination of S value of HSV color space and the result of the Sobel operation taking the derivative in x.  Here's an example of my output for this step:
+I used a combination of S value of HLS color space and the result of the Sobel operation taking the derivative in x.  Here's an example of my output for this step:
 
 ![alt text][image3]
 

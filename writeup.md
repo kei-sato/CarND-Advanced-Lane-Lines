@@ -172,4 +172,9 @@ I thought those failures happend because I didn't use the previous fitting resul
 
 ![alt text][image10]
 
-The final code to create the video clip is in the code cell #17 of main.ipynb
+But some failures remained. So I decided to reject bad fitting results depending on the similarities of the fitted lines.  The final code to create the video clip is in the code cell #17 of main.ipynb
+
+#### 3. When this pipeline likely fail
+
+This pipeline likely fail when there are large shades on the road. So I could make it more robust if it's possible to find out the way to ignore shades while detecting the lines clearly.
+
